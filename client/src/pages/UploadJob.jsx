@@ -51,8 +51,8 @@ const UploadJob = () => {
               <div className='w-1/2'>
                 <TextInput
                   name='salary'
-                  label='Salary (USD)'
-                  placeholder='eg. 1500'
+                  label='Salary ((PHP)'
+                  placeholder='eg. ₱18,000'
                   type='number'
                   register={register("salary", {
                     required: "Salary is required",
@@ -80,7 +80,7 @@ const UploadJob = () => {
                 <TextInput
                   name='experience'
                   label='Years of Experience'
-                  placeholder='experience'
+                  placeholder='5yrs'
                   type='number'
                   register={register("experience", {
                     required: "Experience is required",
@@ -93,7 +93,7 @@ const UploadJob = () => {
             <TextInput
               name='location'
               label='Job Location'
-              placeholder='eg. New York'
+              placeholder='eg. Quezon City'
               type='text'
               register={register("location", {
                 required: "Job Location is required",

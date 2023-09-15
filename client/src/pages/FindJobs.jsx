@@ -40,7 +40,7 @@ const FindJobs = () => {
   return (
     <div>
       <Header
-        title='Find Your Dream Job with Ease'
+        title='Get the Right Job'
         type='home'
         handleClick={() => {}}
         searchQuery={searchQuery}
@@ -111,7 +111,7 @@ const FindJobs = () => {
         <div className='w-full md:w-5/6 px-5 md:px-0'>
           <div className='flex items-center justify-between mb-4'>
             <p className='text-sm md:text-base'>
-              Shwoing: <span className='font-semibold'>1,902</span> Jobs
+              You're Seeing: <span className='font-semibold'>1,902</span> Jobs
               Available
             </p>
 

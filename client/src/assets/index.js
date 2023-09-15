@@ -1,5 +1,5 @@
 import NoProfile from "./userprofile.png";
-import HeroImage from "./hero.png";
+import HeroImage from "./bg1.webp";
 import Google from "./google.png";
 import Linkedin from "./linkedin.png";
 import Youtube from "./youtube.png";
@@ -10,10 +10,10 @@ import Spotify from "./spotify.png";
 import Office from "./office.jpg";
 import JobImg from "./job.jpg";
 import Facebook from "./facebook.png";
-import CodeWave from "./codewave.png";
+import Github from "./github.png";
 
 export {
-  CodeWave,
+  Github,
   NoProfile,
   Facebook,
   WhatsApp,

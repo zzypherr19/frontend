@@ -109,8 +109,8 @@ const Navbar = () => {
       <div className='relative bg-[#f7fdfd] z-50'>
         <nav className='container mx-auto flex items-center justify-between p-5'>
           <div>
-            <Link to='/' className='text-blue-600 font-bold text-xl'>
-              Job<span className='text-[#1677cccb]'>Finder</span>
+            <Link to='/' className='text-blue-700 font-bold text-xl'>
+              WebWork<span className='text-[#1677cccb]'>Wave</span>
             </Link>
           </div>
 
